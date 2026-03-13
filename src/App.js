@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const GROQ_API_KEY = "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";
+const GROQ_API_KEY = process.env.REACT_APP_GROQ_API_KEY;
 
 const SYSTEM_PROMPT = `You are Aria, an elite AI real estate assistant powered by Scizor AI. You help real estate agents and brokerages by:
 
